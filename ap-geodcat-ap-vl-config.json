@@ -1,0 +1,58 @@
+{
+  "naam": "Applicatieprofiel GeoDCAT-AP VL",
+  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/blob/test/report/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/2021-10-20/all-geodcatap-vlaanderen.jsonld",
+  "verantwoordelijke_organisatie": "Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "2021-10-20",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-geodcat-ap-vl.md",
+  "specificatiedocument": [
+    {
+      "naam": "GeoDCAT-AP Vlaanderen",
+      "waarde": ""
+    }
+  ],
+  "documentatie": [
+    {
+      "naam": "DCAT-AP 1.2",
+      "waarde": "https://joinup.ec.europa.eu/release/dcat-ap/12"
+    },
+    {
+      "naam": "DCAT-AP 2.0",
+      "waarde": "https://github.com/SEMICeu/DCAT-AP/tree/2.0.1/releases/2.0.1"
+    },
+    {
+      "naam": "Applicatieprofiel metadata DCAT",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/metadata-dcat"
+    },
+    {
+      "naam": "W3C DCAT",
+      "waarde": "https://www.w3.org/TR/vocab-dcat/"
+    },
+    {
+      "naam": "W3C Review DCAT",
+      "waarde": "https://w3c.github.io/dxwg/dcat/"
+    },
+    {
+      "naam": "GeoDCAT-AP ",
+      "waarde": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0"
+    }
+  ],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter GeoDCAT-AP VL",
+      "waarde": ""
+    }
+  ],
+  "verslagen": [
+  ],
+  "presentaties": [
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking geografische Data catalogi in Vlaanderen.",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "16 September 2021",
+  "datum_einde_review": "TDB",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD"
+}
