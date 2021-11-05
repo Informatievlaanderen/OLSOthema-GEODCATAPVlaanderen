@@ -48,6 +48,10 @@
   "verslagen": [
   ],
   "presentaties": [
+    {
+      "naam": "Presentatie webinar 1 – 21 oktober 2021",
+      "waarde": "Webinar-1-OSLO-GeoDCAT-AP-VL.pdf"
+    }
   ],
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking geografische Data catalogi in Vlaanderen.",
   "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
