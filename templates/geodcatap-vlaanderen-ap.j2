@@ -46,4 +46,42 @@ omvatten zowel publiek toegankelijke als afgeschermde data en diensten (ontwikke
 
 {% endblock %}
 
+{% block transformatie %}
+
+
+  <div class="region region--no-space-top">
+      <h3 class="h3" >Datasets, distributies en data services</h3> 
+
+GDI Vlaanderen ISO metadata voorschriften maakt onderscheidt tussen datasets, distributies en data services. Datasets en data services worden gemapt direct op hun overeenkomstige tegenhangers. Voor distributies wordt de volgende regel toegepast: enkel de ISO distributies die als protocol een downloadbare voorstelling aanduiden worden gemapt. De geimplementeerde regels vindt men hier.
+       Bijkomend bij deze basisregel komt de observatie dat bepaalde kenmerkende informatie die DCAT associeert met een distributie, door ISO wordt geassocieerd met een ISO dataset. Daaruit volgt de mapping regel dat informatie geassocieerd met ISO Dataset naar elke bijhorende distributie wordt gepropageerd. Hierdoor onstaat als een logisch gevolg een herhaling van dezelfde informatie in de geproduceerde DCAT voorstelling. 
+Bepaalde informatie leidt zelfs tot verdere expansie: namelijk omdat een DCAT distributie slechts 1 formaat kan hebben, zal voor elke formaat in de ISO metadata leiden tot een overeenkomstige distributie.
+
+  </div>
+
+  <div class="region region--no-space-top">
+      <h3 class="h3" >Relaties tussen datasets, distributies en data services</h3> 
+     
+De onderlinge relaties tussen datasets, distributies en data services worden in ISO metadata en DCAT op een andere manier ingevuld. Zo gebruikt ISO metadata de XML "embedding" om een afhankelijksheids relaties tussen datasets en distributies uit te drukken. In DCAT worden deze en andere relaties expliciet gehouden. 
+DCAT gebruikt gerichte relaties, echter die 
+
+
+
+  </div>
+
+  <div class="region region--no-space-top">
+      <h3 class="h3" >Organisaties en hun rollen</h3> 
+
+De volgende GDI Vlaanderen ISO metadata rollen worden volgens onderstaande tabel gemapt:
+
+Voor contactinformatie is zijn er diverse afnemerverwachtingen: de DCAT specificatie volgt vCard; terwijl OSLO de Core Vocabularies van ISA volgt. Voor de mapping wordt er gekozen om beide te maken op basis van de contact informatie in de ISO metadata.
+
+  </div>
+
+  <div class="region region--no-space-top">
+      <h3 class="h3" >Wettelijke informatie</h3> 
+
+  De algemene mapping regel is dat indien de gebruiksvoorwaarde in de ISO metadata verwijst naar een gekende licentie url, deze beschouwd worden als de licentie. De andere gebruiksvoorwaarden worden opgenomen als een recht. 
+  </div>
+
+{% endblock %}
 
