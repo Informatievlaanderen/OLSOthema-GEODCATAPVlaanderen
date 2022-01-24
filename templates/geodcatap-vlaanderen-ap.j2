@@ -83,5 +83,20 @@ Voor contactinformatie is zijn er diverse afnemerverwachtingen: de DCAT specific
   De algemene mapping regel is dat indien de gebruiksvoorwaarde in de ISO metadata verwijst naar een gekende licentie url, deze beschouwd worden als de licentie. De andere gebruiksvoorwaarden worden opgenomen als een recht. 
   </div>
 
+  <div class="region region--no-space-top">
+      <h3 class="h3" >Standaarden</h3> 
+
+  Standaarden worden hier, in metadata beschrijvingen, breed geinterpreteerd. Het zijn documenten die afspraken vastleggen. Een gedeelte van die documenten worden geratificeerd en beheerd door een (erkend) governance orgaan, zoals b.v. ISO of het Vlaams Stuurorgaan voor ICT. Echter er zijn ook afspraken die de beheerder van de dataset of dataservice worden gemaakt. Het zijn die afspraken die het concrete reilen en zeilen bepalen en dikwijls implementeren zij de aanbevelingen van erkende standaarden. Ook deze worden beschouwd als standaarden hier. 
+
+Om toch wat inzicht te bekomen in aard van de standaarden, kan de eigenschap 'type' worden gebruikt. De waarden van deze eigenschap liggen niet vast, maar voor enige harmonisatie te bekomen worden de volgende afspraken gemaakt: Indien de aard van de standaard 
+   <ul>
+     <li>een feature catalogue van een geografische dataset, dan is type 'https://www.iso.org/standard/39965.html' </li>
+     <li>een OSLO datastandaard, dan is type 'OSLO process & methode (PURI te maken TODO)' </li>
+     <li>een coordinaat referentie systeem (CRS), dan is type 'http://inspire.ec.europa.eu/glossary/SpatialReferenceSystem' </li>
+   </ul>
+Deze lijst is niet volledig.
+
+  </div>
+
 {% endblock %}
 
