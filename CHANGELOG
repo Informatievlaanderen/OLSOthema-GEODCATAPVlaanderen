@@ -2,3 +2,9 @@
   - initialisatie van GeoDCAT-AP Vlaanderen
 2022-01-23
   - toepassing van alle wg beslissingen 
+2022-04-21
+  - erkenning door stuurorgaan
+  - alignatie met Metadata DCAT 
+  - meertaligheid verduidelijkd
+  - toevoeging "bron metadata record landingspagina" als optionele eigenschap.
+  - range Dataset.contactinformatie naar juiste klasse.
