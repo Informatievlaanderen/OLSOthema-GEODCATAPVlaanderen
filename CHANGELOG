@@ -9,3 +9,5 @@
   - toevoeging "bron metadata record landingspagina" als optionele eigenschap.
   - range Dataset.contactinformatie naar juiste klasse.
   - herintroduceer verwijderde aangepaste generieke template  
+2023-03-12
+  - bugfix http -> https
